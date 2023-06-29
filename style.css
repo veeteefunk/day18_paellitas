@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ddebf7;
+    font-family: 'EB Garamond', sans-serif;
+    color: #143556;
+    border: solid 5px #143556;
+    border-radius: 25px;
+    margin: 2.5rem;
+}
+
+.logo {
+    text-align: center;
+    margin: 1.2rem 0 0 0;
+}
+
+.title {
+    text-align: center;
+    font-size: 4.4rem;
+}
+
+.entradas {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.entradas .izquierda {
+    width: 50%;
+    margin: 0 1rem 0 6rem;
+}
+.entradas .derecha {
+    width: 50%;
+    margin: 0 6rem 0 1rem;
+}
+
+.entradas .izquierda ul li,
+.entradas .derecha ul li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    margin: -0.4rem 0;
+}
+
+.entradas .izquierda ul li i,
+.entradas .derecha ul li i,
+footer i {
+    font-size: 0.7rem;
+    border-radius: 50%;
+    padding: 0.4rem;
+}
+
+.entradas .izquierda ul li b,
+.entradas .derecha ul li b {
+    white-space: nowrap;
+}
+
+.entradas i.fa-pepper-hot,
+.menu-paellas .lista i.fa-pepper-hot,
+.last .postres ul li i.fa-pepper-hot,
+footer i.fa-pepper-hot {
+    background-color: #00862b;
+}
+.entradas i.fa-brain,
+.menu-paellas i.fa-brain,
+.last .postres i.fa-brain,
+footer i.fa-brain {
+    background-color: pink;
+}
+.entradas i.fa-nutritionix,
+.menu-paellas .lista i.fa-nutritionix,
+.last .postres ul li i.fa-nutritionix,
+footer i.fa-nutritionix {
+    background-color: yellowgreen;
+}
+.entradas i.fa-fish,
+.menu-paellas .lista i.fa-fish,
+.last .postres ul li i.fa-fish,
+footer i.fa-fish {
+    background-color: darkmagenta;
+}
+.entradas i.fa-shrimp,
+.menu-paellas i.fa-shrimp,
+.last .postres i.fa-shrimp,
+footer i.fa-shrimp {
+    background-color: darkorange;
+}
+
+.entradas .izquierda ul li .puntos,
+.entradas .derecha ul li .puntos {
+    display: inline-block;
+    border-bottom: dotted 5px #143556;
+    width: 100%;
+}
+
+.paellitas {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.img-left {
+    width: 33%;
+    margin-top: 4rem;
+    margin-left: 3rem;
+}
+
+.paellitas .menu-paellas {
+    /* background-color: black; */
+    width: 100%;
+    margin-left: 1.5rem;
+    margin-right: 5rem;
+}
+
+.paellitas .menu-paellas ul {
+    list-style: none;
+}
+
+.paellitas .menu-paellas ul li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    margin: -0.4rem 0;
+}
+
+.last .postres ul li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    margin: -0.4rem 0;
+}
+
+.paellitas .menu-paellas p {
+    font-size: 4.4rem;
+
+}
+
+.paellitas .menu-paellas ul li {
+    margin: .3rem 0;
+}
+
+.paellitas .menu-paellas ul li i,
+.last .postres ul li i {
+    font-size: 0.7rem;
+    border-radius: 50%;
+    padding: 0.4rem;
+}
+
+.paellitas .menu-paellas .subtitulo .individuales {
+    font-size: 2.7rem;
+}
+
+.paellitas .menu-paellas ul li .ingredientes {
+    font-size: 1.8rem;
+}
+
+.paellitas .menu-paellas li b,
+.last .postres ul li b {
+    white-space: nowrap;
+    font-size: 2rem;
+}
+
+.last .postres ul li div {
+    padding-right: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+.paellitas .menu-paellas ul li .puntos,
+.last .postres ul li .puntos {
+    display: inline-block;
+    border-bottom: dotted 5px #143556;
+    width: 100%;
+}
+
+.last {
+    display: flex;
+    margin-right: 4rem;
+}
+
+.last .postres {
+    width: 66%;
+    /* background-color: yellow; */
+    margin-top: 0.6rem;
+    margin-left: 6rem;
+    margin-bottom: 0.6rem;
+    padding: 0rem 2rem;
+    border-width: 0.32rem;
+    border-color: rgb(66, 169, 238);
+    border-style: double;
+}
+
+.last .postres .postres-title {
+    text-align: center;
+    font-size: 4.4rem;
+    padding-bottom: 0.8rem;
+}
+
+.corazon {
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+footer {
+    /* background-color: pink; */
+    margin-bottom: 4rem;
+}
+
+footer p {
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 0.2rem 0;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+footer ul li {
+    padding: 0 1.4rem;
+}
+
+footer ul li div {
+    text-align: center;
+}
